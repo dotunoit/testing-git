@@ -1,0 +1,29 @@
+/* This is a CSS comment */
+
+/* Selecting an element by its tag name */
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+/* Selecting an element by its class */
+.button {
+  background-color: yellow;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Selecting an element by its ID */
+#my-element {
+  border: 1px solid black;
+}
+
+/* Applying styles to multiple selectors */
+h2, p {
+  color: green;
+}
+
+/* Applying styles based on element hierarchy */
+.container p {
+  font-style: italic;
+}
